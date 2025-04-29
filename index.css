@@ -1,0 +1,192 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("Images/image.1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Top header for the login page */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.top-header .link {
+    color: #fff;
+    font-size: small;
+    text-decoration: none;
+}
+
+header {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Input fields styling */
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-field .input {
+    height: 45px;
+    width: 89%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255,255,255,0.1);
+}
+
+.input-field i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+
+i {
+    position: sticky;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+/* Login button */
+.web {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+}
+
+.web a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    height: 45px;
+    text-decoration: none;
+    background-color: #333;
+    border-radius: 30px;
+    color: white;
+    transition: .3s;
+}
+
+/* .web:hover {
+background-color: white;
+} */
+
+/* Social media login buttons */
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login p {
+    color: #ccc;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 30px;
+    font-size: 0.95em;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 92%;
+}
+
+.btn i {
+    font-size: 1.3em;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn.google { background-color: #db4437; }
+.btn.microsoft {
+    background-color: #2F2F2F;
+    color: white;
+}
+/* .btn.facebook { background-color: #4267B2; }
+.btn.github { background-color: #333; }
+.btn.apple { background-color: #000; }
+.btn.linkedin { background-color: #0077b5; } */
+
+.btn.microsoft:hover {
+    background-color: #1a1a1a;
+}
+
+
+/* Footer or Bottom */
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+}
+
+label a {
+    color: #fff;
+    text-decoration: none;
+}
